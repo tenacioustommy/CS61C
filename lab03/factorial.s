@@ -1,3 +1,5 @@
+# The .globl keyword can be placed in a file and defines the labels we want to expose to other files when they import this file; it’s analogous to defining a function in a header file.
+# If you open the factorial.s file, you’ll notice that we export your factorial label at the top with the .globl factorial line at the top. This is actually how the autograder tests your function so don’t remove it!
 .globl factorial
 
 .data

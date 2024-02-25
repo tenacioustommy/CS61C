@@ -14,6 +14,6 @@
 #define BUF_SIZE 8192
 
 char *compute_dotp(int);
-char *image_proc(const char*);
+char *image_proc(const char *);
 
 #endif
